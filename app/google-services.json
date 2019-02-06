@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "50401218508",
+    "firebase_url": "https://puochatapp.firebaseio.com",
+    "project_id": "puochatapp",
+    "storage_bucket": "puochatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50401218508:android:147efbb984f623e5",
+        "android_client_info": {
+          "package_name": "com.lowesta.puochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50401218508-gq0agndr3cuh1a5emnjafhri644vnk10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lowesta.puochat",
+            "certificate_hash": "6c7e8dd7d67f92d8285090959083cfa573fe4876"
+          }
+        },
+        {
+          "client_id": "50401218508-j6k5393d52f7fqr8firsudoto0g0o7l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRMkKVBWB8oYkq4P019r7Wf0Q1kPOhatU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50401218508-j6k5393d52f7fqr8firsudoto0g0o7l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+   <include layout ="@layout/actionbar_app" android:id="@+id/actionbarLogin"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_below="@+id/actionbarLogin">
+
+      <TextView
+          android:id="@+id/txtinfo1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="90dp"
+          android:layout_marginTop="80dp"
+          android:layout_marginEnd="50dp"
+          android:text="@string/login_you_account"
+          android:textColor="@android:color/background_dark"
+          android:textSize="25sp" />
+
+      <TextView
+          android:id="@+id/txtEmailLogin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/email"
+          android:inputType="textEmailAddress"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:textSize="25sp"/>
+      <TextView
+          android:id="@+id/txtPasswordLogin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/Password"
+          android:inputType="textPassword"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:textSize="25sp"/>
+      <Button
+          android:id="@+id/btnLogin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/login"
+          android:layout_marginTop="20dp"
+          android:layout_marginStart="50dp"
+          android:layout_marginEnd="50dp"
+          android:layout_marginBottom="180dp"
+          android:background="@color/colorPrimary"
+          android:textColor="@android:color/white"
+          />
+
+   </LinearLayout>
+
+
+
+</RelativeLayout>

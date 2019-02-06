@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PuoChat</string>
+    <string name="create_new_account">Yeni Hesap Oluştur</string>
+    <string name="i_have_account">Giriş Yap</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="email">Email</string>
+    <string name="Password">Şifre</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="login_you_account">Lütfen Giriş Yapınız</string>
+    <string name="login">Giriş Yap</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="kullanicilar">Tüm Kullanıcılar</string>
+</resources>
